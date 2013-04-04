@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67249610153D7C270019DDA2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6724960F153D7C270019DDA2 /* Cocoa.framework */; };
+		6724961A153D7C270019DDA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67249618153D7C270019DDA2 /* InfoPlist.strings */; };
+		6724961C153D7C270019DDA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6724961B153D7C270019DDA2 /* main.m */; };
+		67249620153D7C270019DDA2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6724961E153D7C270019DDA2 /* Credits.rtf */; };
+		67249623153D7C270019DDA2 /* VideoConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67249622153D7C270019DDA2 /* VideoConverterAppDelegate.m */; };
+		67249626153D7C270019DDA2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67249624153D7C270019DDA2 /* MainMenu.xib */; };
+		67F86C16153EA729001DF8E8 /* VideoConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F86C15153EA729001DF8E8 /* VideoConverterController.m */; };
+		67F86C1E153EABF5001DF8E8 /* VideoConverterDragDropBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F86C1D153EABF5001DF8E8 /* VideoConverterDragDropBox.m */; };
+		67F86C20153ED1CA001DF8E8 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F86C1F153ED1CA001DF8E8 /* QTKit.framework */; };
+		C72D3678154900AB00BA8418 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72D3677154900AB00BA8418 /* SenTestingKit.framework */; };
+		C72D3679154900AB00BA8418 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6724960F153D7C270019DDA2 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6724960B153D7C260019DDA2 /* VideoConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6724960F153D7C270019DDA2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		67249612153D7C270019DDA2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		67249613153D7C270019DDA2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		67249614153D7C270019DDA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67249617153D7C270019DDA2 /* VideoConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoConverter-Info.plist"; sourceTree = "<group>"; };
+		67249619153D7C270019DDA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6724961B153D7C270019DDA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6724961D153D7C270019DDA2 /* VideoConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoConverter-Prefix.pch"; sourceTree = "<group>"; };
+		6724961F153D7C270019DDA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		67249621153D7C270019DDA2 /* VideoConverterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoConverterAppDelegate.h; sourceTree = "<group>"; };
+		67249622153D7C270019DDA2 /* VideoConverterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoConverterAppDelegate.m; sourceTree = "<group>"; };
+		67249625153D7C270019DDA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		67F86C14153EA729001DF8E8 /* VideoConverterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoConverterController.h; sourceTree = "<group>"; };
+		67F86C15153EA729001DF8E8 /* VideoConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoConverterController.m; sourceTree = "<group>"; };
+		67F86C1C153EABF5001DF8E8 /* VideoConverterDragDropBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoConverterDragDropBox.h; sourceTree = "<group>"; };
+		67F86C1D153EABF5001DF8E8 /* VideoConverterDragDropBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoConverterDragDropBox.m; sourceTree = "<group>"; };
+		67F86C1F153ED1CA001DF8E8 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		C72D3676154900AB00BA8418 /* MyAppApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72D3677154900AB00BA8418 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67249608153D7C260019DDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F86C20153ED1CA001DF8E8 /* QTKit.framework in Frameworks */,
+				67249610153D7C270019DDA2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72D3672154900AB00BA8418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72D3678154900AB00BA8418 /* SenTestingKit.framework in Frameworks */,
+				C72D3679154900AB00BA8418 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67249600153D7C260019DDA2 = {
+			isa = PBXGroup;
+			children = (
+				67F86C1F153ED1CA001DF8E8 /* QTKit.framework */,
+				67249615153D7C270019DDA2 /* VideoConverter */,
+				6724960E153D7C270019DDA2 /* Frameworks */,
+				6724960C153D7C260019DDA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6724960C153D7C260019DDA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6724960B153D7C260019DDA2 /* VideoConverter.app */,
+				C72D3676154900AB00BA8418 /* MyAppApplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6724960E153D7C270019DDA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6724960F153D7C270019DDA2 /* Cocoa.framework */,
+				C72D3677154900AB00BA8418 /* SenTestingKit.framework */,
+				67249611153D7C270019DDA2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67249611153D7C270019DDA2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67249612153D7C270019DDA2 /* AppKit.framework */,
+				67249613153D7C270019DDA2 /* CoreData.framework */,
+				67249614153D7C270019DDA2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		67249615153D7C270019DDA2 /* VideoConverter */ = {
+			isa = PBXGroup;
+			children = (
+				67F86C1C153EABF5001DF8E8 /* VideoConverterDragDropBox.h */,
+				67F86C1D153EABF5001DF8E8 /* VideoConverterDragDropBox.m */,
+				67249621153D7C270019DDA2 /* VideoConverterAppDelegate.h */,
+				67249622153D7C270019DDA2 /* VideoConverterAppDelegate.m */,
+				67F86C14153EA729001DF8E8 /* VideoConverterController.h */,
+				67F86C15153EA729001DF8E8 /* VideoConverterController.m */,
+				67249624153D7C270019DDA2 /* MainMenu.xib */,
+				67249616153D7C270019DDA2 /* Supporting Files */,
+			);
+			path = VideoConverter;
+			sourceTree = "<group>";
+		};
+		67249616153D7C270019DDA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67249617153D7C270019DDA2 /* VideoConverter-Info.plist */,
+				67249618153D7C270019DDA2 /* InfoPlist.strings */,
+				6724961B153D7C270019DDA2 /* main.m */,
+				6724961D153D7C270019DDA2 /* VideoConverter-Prefix.pch */,
+				6724961E153D7C270019DDA2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6724960A153D7C260019DDA2 /* VideoConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67249629153D7C270019DDA2 /* Build configuration list for PBXNativeTarget "VideoConverter" */;
+			buildPhases = (
+				67249607153D7C260019DDA2 /* Sources */,
+				67249608153D7C260019DDA2 /* Frameworks */,
+				67249609153D7C260019DDA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoConverter;
+			productName = VideoConverter;
+			productReference = 6724960B153D7C260019DDA2 /* VideoConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C72D3675154900AB00BA8418 /* MyAppApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72D3686154900AB00BA8418 /* Build configuration list for PBXNativeTarget "MyAppApplicationTests" */;
+			buildPhases = (
+				C72D3671154900AB00BA8418 /* Sources */,
+				C72D3672154900AB00BA8418 /* Frameworks */,
+				C72D3673154900AB00BA8418 /* Resources */,
+				C72D3674154900AB00BA8418 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAppApplicationTests;
+			productName = MyAppApplicationTests;
+			productReference = C72D3676154900AB00BA8418 /* MyAppApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67249602153D7C260019DDA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 67249605153D7C260019DDA2 /* Build configuration list for PBXProject "VideoConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67249600153D7C260019DDA2;
+			productRefGroup = 6724960C153D7C260019DDA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6724960A153D7C260019DDA2 /* VideoConverter */,
+				C72D3675154900AB00BA8418 /* MyAppApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67249609153D7C260019DDA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6724961A153D7C270019DDA2 /* InfoPlist.strings in Resources */,
+				67249620153D7C270019DDA2 /* Credits.rtf in Resources */,
+				67249626153D7C270019DDA2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72D3673154900AB00BA8418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C72D3674154900AB00BA8418 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67249607153D7C260019DDA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6724961C153D7C270019DDA2 /* main.m in Sources */,
+				67249623153D7C270019DDA2 /* VideoConverterAppDelegate.m in Sources */,
+				67F86C16153EA729001DF8E8 /* VideoConverterController.m in Sources */,
+				67F86C1E153EABF5001DF8E8 /* VideoConverterDragDropBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72D3671154900AB00BA8418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67249618153D7C270019DDA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67249619153D7C270019DDA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6724961E153D7C270019DDA2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6724961F153D7C270019DDA2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		67249624153D7C270019DDA2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67249625153D7C270019DDA2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67249627153D7C270019DDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67249628153D7C270019DDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6724962A153D7C270019DDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoConverter/VideoConverter-Prefix.pch";
+				INFOPLIST_FILE = "VideoConverter/VideoConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6724962B153D7C270019DDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoConverter/VideoConverter-Prefix.pch";
+				INFOPLIST_FILE = "VideoConverter/VideoConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C72D3684154900AB00BA8418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAppApplicationTests/MyAppApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "MyAppApplicationTests/MyAppApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C72D3685154900AB00BA8418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAppApplicationTests/MyAppApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "MyAppApplicationTests/MyAppApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67249605153D7C260019DDA2 /* Build configuration list for PBXProject "VideoConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67249627153D7C270019DDA2 /* Debug */,
+				67249628153D7C270019DDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67249629153D7C270019DDA2 /* Build configuration list for PBXNativeTarget "VideoConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6724962A153D7C270019DDA2 /* Debug */,
+				6724962B153D7C270019DDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72D3686154900AB00BA8418 /* Build configuration list for PBXNativeTarget "MyAppApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72D3684154900AB00BA8418 /* Debug */,
+				C72D3685154900AB00BA8418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67249602153D7C260019DDA2 /* Project object */;
+}
